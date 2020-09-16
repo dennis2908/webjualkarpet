@@ -5,10 +5,10 @@ $site = DB::table('konfigurasi')->first();
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>{{ $title }}</title>
-<meta name="description" content="{{ $deskripsi }}">
-<meta name="keywords" content="{{ $keywords }}">
-<meta name="author" content="{{ $site->namaweb }}">
+<title>Jual Karpet & Jasa Strategi Marketing</title>
+<meta name="description" content="Jual Karpet & Jasa Strategi Marketing">
+<meta name="keywords" content="Jual Karpet & Jasa Strategi Marketing">
+<meta name="author" content="Jual Karpet & Jasa Strategi Marketing">
 <!-- icon -->
 <link rel="shortcut icon" href="{{ asset('public/upload/image/'.$site->icon) }}">
 <!-- Google Fonts -->

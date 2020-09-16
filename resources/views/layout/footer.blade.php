@@ -106,7 +106,7 @@ $site       = DB::table('konfigurasi')->first();
         &copy; Copyright <strong><span><?php echo $site->namaweb ?></span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        Developed by <a href="https://javawebmedia.com/">Java Web Media</a>
+        Developed by <a href="https://wa.me/6288809615182">Dennis Manullang  WhatsApp 088809615182</a>
       </div>
     </div>
   </footer><!-- End Footer -->
