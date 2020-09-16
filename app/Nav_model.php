@@ -26,7 +26,7 @@ class Nav_model extends Model
 		
         //    ->get();
         return DB::select(DB::raw('
-		select distinct(*) from (select produk.*, kategori_produk.slug_kategori_produk, kategori_produk.nama_kategori_produk 
+		select distinct(produk.produk_id),* from (select produk.*, kategori_produk.slug_kategori_produk, kategori_produk.nama_kategori_produk 
 		from produk join kategori_produk on kategori_produk.id_kategori_produk = produk.id_kategori_produk 
 		order by produk.id_produk desc) as b
 		'));
