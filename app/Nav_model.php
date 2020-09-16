@@ -26,9 +26,9 @@ class Nav_model extends Model
 		
         //    ->get();
         return DB::select(DB::raw('
-		select * from (select produk.*, kategori_produk.slug_kategori_produk, kategori_produk.nama_kategori_produk 
+		select distinct(*) from (select produk.*, kategori_produk.slug_kategori_produk, kategori_produk.nama_kategori_produk 
 		from produk join kategori_produk on kategori_produk.id_kategori_produk = produk.id_kategori_produk 
-		order by produk.id_produk desc) as b group by b.id_kategori_produk
+		order by produk.id_produk desc) as b
 		'));
     }
 
@@ -49,9 +49,9 @@ class Nav_model extends Model
     {
 		
 
-		return DB::select(DB::raw("select * from(
+		return DB::select(DB::raw("select distinct(*) from(
 		select berita.*, kategori.slug_kategori, kategori.nama_kategori from berita inner join kategori on kategori.id_kategori = berita.id_kategori where (berita.status_berita = 'Publish' and berita.jenis_berita = 'Profil') order by berita.id_berita desc
-		) as b group by b.id_kategori"));
+		)"));
 //        return $query;
     }
 }
