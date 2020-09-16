@@ -49,7 +49,7 @@ class Nav_model extends Model
     {
 		
 
-		return DB::select(DB::raw("distinct(id_berita ),* from from(
+		return DB::select(DB::raw("select distinct(id_berita ),* from(
 		select berita.*, kategori.slug_kategori, kategori.nama_kategori from berita inner join kategori on kategori.id_kategori = berita.id_kategori where (berita.status_berita = 'Publish' and berita.jenis_berita = 'Profil') order by berita.id_berita desc
 		)"));
 //        return $query;
