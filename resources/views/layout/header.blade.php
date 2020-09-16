@@ -8,6 +8,8 @@ $nav_kategori_produk  = $myproduk->nav_produk();
 // Nav profil
 $myprofil             = new Nav_model();
 $nav_profil           = $myproduk->nav_profil();
+
+//dd($nav_kategori_produk);
 ?>
 <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
@@ -37,7 +39,7 @@ $nav_profil           = $myproduk->nav_profil();
             <li class="drop-down"><a href="{{ asset('produk') }}">Produk</a>
               <ul>
                 <?php foreach($nav_kategori_produk as $nkp) { ?>
-                <li><a href="{{ asset('produk/kategori/'.$nkp->slug_kategori_produk) }}"><?php echo $nkp->nama_kategori_produk ?></a></li>
+                <li><a href="{{ asset('produk/kategori/'.$nkp->slug_kategori_produk) }}"><?php echo $nkp->nama_produk ?></a></li>
                 <?php } ?>
                 <li><a href="#"><hr style="margin: 0; padding: 0;"></a></li>
                 <li><a href="{{ asset('produk') }}">Semua Produk</a></li>
