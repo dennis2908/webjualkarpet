@@ -1,5 +1,5 @@
 --
--- lnxherptaqgxqbQL database dump
+-- sylgyfpwxylttlQL database dump
 --
 
 -- Dumped from database version 12.4
@@ -21,7 +21,7 @@ SET default_tablespace = '';
 SET default_table_access_method = heap;
 
 --
--- Name: berita; Type: TABLE; Schema: public; Owner: lnxherptaqgxqb
+-- Name: berita; Type: TABLE; Schema: public; Owner: sylgyfpwxylttl
 --
 
 CREATE TABLE public.berita (
@@ -47,10 +47,10 @@ CREATE TABLE public.berita (
 );
 
 
-ALTER TABLE public.berita OWNER TO lnxherptaqgxqb;
+ALTER TABLE public.berita OWNER TO sylgyfpwxylttl;
 
 --
--- Name: download; Type: TABLE; Schema: public; Owner: lnxherptaqgxqb
+-- Name: download; Type: TABLE; Schema: public; Owner: sylgyfpwxylttl
 --
 
 CREATE TABLE public.download (
@@ -67,10 +67,10 @@ CREATE TABLE public.download (
 );
 
 
-ALTER TABLE public.download OWNER TO lnxherptaqgxqb;
+ALTER TABLE public.download OWNER TO sylgyfpwxylttl;
 
 --
--- Name: galeri; Type: TABLE; Schema: public; Owner: lnxherptaqgxqb
+-- Name: galeri; Type: TABLE; Schema: public; Owner: sylgyfpwxylttl
 --
 
 CREATE TABLE public.galeri (
@@ -90,10 +90,10 @@ CREATE TABLE public.galeri (
 );
 
 
-ALTER TABLE public.galeri OWNER TO lnxherptaqgxqb;
+ALTER TABLE public.galeri OWNER TO sylgyfpwxylttl;
 
 --
--- Name: gambar_produk; Type: TABLE; Schema: public; Owner: lnxherptaqgxqb
+-- Name: gambar_produk; Type: TABLE; Schema: public; Owner: sylgyfpwxylttl
 --
 
 CREATE TABLE public.gambar_produk (
@@ -108,10 +108,10 @@ CREATE TABLE public.gambar_produk (
 );
 
 
-ALTER TABLE public.gambar_produk OWNER TO lnxherptaqgxqb;
+ALTER TABLE public.gambar_produk OWNER TO sylgyfpwxylttl;
 
 --
--- Name: kategori; Type: TABLE; Schema: public; Owner: lnxherptaqgxqb
+-- Name: kategori; Type: TABLE; Schema: public; Owner: sylgyfpwxylttl
 --
 
 CREATE TABLE public.kategori (
@@ -125,10 +125,10 @@ CREATE TABLE public.kategori (
 );
 
 
-ALTER TABLE public.kategori OWNER TO lnxherptaqgxqb;
+ALTER TABLE public.kategori OWNER TO sylgyfpwxylttl;
 
 --
--- Name: kategori_download; Type: TABLE; Schema: public; Owner: lnxherptaqgxqb
+-- Name: kategori_download; Type: TABLE; Schema: public; Owner: sylgyfpwxylttl
 --
 
 CREATE TABLE public.kategori_download (
@@ -139,10 +139,10 @@ CREATE TABLE public.kategori_download (
 );
 
 
-ALTER TABLE public.kategori_download OWNER TO lnxherptaqgxqb;
+ALTER TABLE public.kategori_download OWNER TO sylgyfpwxylttl;
 
 --
--- Name: kategori_galeri; Type: TABLE; Schema: public; Owner: lnxherptaqgxqb
+-- Name: kategori_galeri; Type: TABLE; Schema: public; Owner: sylgyfpwxylttl
 --
 
 CREATE TABLE public.kategori_galeri (
@@ -153,10 +153,10 @@ CREATE TABLE public.kategori_galeri (
 );
 
 
-ALTER TABLE public.kategori_galeri OWNER TO lnxherptaqgxqb;
+ALTER TABLE public.kategori_galeri OWNER TO sylgyfpwxylttl;
 
 --
--- Name: kategori_produk; Type: TABLE; Schema: public; Owner: lnxherptaqgxqb
+-- Name: kategori_produk; Type: TABLE; Schema: public; Owner: sylgyfpwxylttl
 --
 
 CREATE TABLE public.kategori_produk (
@@ -170,10 +170,10 @@ CREATE TABLE public.kategori_produk (
 );
 
 
-ALTER TABLE public.kategori_produk OWNER TO lnxherptaqgxqb;
+ALTER TABLE public.kategori_produk OWNER TO sylgyfpwxylttl;
 
 --
--- Name: konfigurasi; Type: TABLE; Schema: public; Owner: lnxherptaqgxqb
+-- Name: konfigurasi; Type: TABLE; Schema: public; Owner: sylgyfpwxylttl
 --
 
 CREATE TABLE public.konfigurasi (
@@ -259,10 +259,10 @@ CREATE TABLE public.konfigurasi (
 );
 
 
-ALTER TABLE public.konfigurasi OWNER TO lnxherptaqgxqb;
+ALTER TABLE public.konfigurasi OWNER TO sylgyfpwxylttl;
 
 --
--- Name: pemesanan; Type: TABLE; Schema: public; Owner: lnxherptaqgxqb
+-- Name: pemesanan; Type: TABLE; Schema: public; Owner: sylgyfpwxylttl
 --
 
 CREATE TABLE public.pemesanan (
@@ -298,10 +298,10 @@ CREATE TABLE public.pemesanan (
 );
 
 
-ALTER TABLE public.pemesanan OWNER TO lnxherptaqgxqb;
+ALTER TABLE public.pemesanan OWNER TO sylgyfpwxylttl;
 
 --
--- Name: produk; Type: TABLE; Schema: public; Owner: lnxherptaqgxqb
+-- Name: produk; Type: TABLE; Schema: public; Owner: sylgyfpwxylttl
 --
 
 CREATE TABLE public.produk (
@@ -338,10 +338,10 @@ CREATE TABLE public.produk (
 );
 
 
-ALTER TABLE public.produk OWNER TO lnxherptaqgxqb;
+ALTER TABLE public.produk OWNER TO sylgyfpwxylttl;
 
 --
--- Name: rekening; Type: TABLE; Schema: public; Owner: lnxherptaqgxqb
+-- Name: rekening; Type: TABLE; Schema: public; Owner: sylgyfpwxylttl
 --
 
 CREATE TABLE public.rekening (
@@ -355,10 +355,10 @@ CREATE TABLE public.rekening (
 );
 
 
-ALTER TABLE public.rekening OWNER TO lnxherptaqgxqb;
+ALTER TABLE public.rekening OWNER TO sylgyfpwxylttl;
 
 --
--- Name: users; Type: TABLE; Schema: public; Owner: lnxherptaqgxqb
+-- Name: users; Type: TABLE; Schema: public; Owner: sylgyfpwxylttl
 --
 
 CREATE TABLE public.users (
@@ -374,10 +374,10 @@ CREATE TABLE public.users (
 );
 
 
-ALTER TABLE public.users OWNER TO lnxherptaqgxqb;
+ALTER TABLE public.users OWNER TO sylgyfpwxylttl;
 
 --
--- Name: video; Type: TABLE; Schema: public; Owner: lnxherptaqgxqb
+-- Name: video; Type: TABLE; Schema: public; Owner: sylgyfpwxylttl
 --
 
 CREATE TABLE public.video (
@@ -393,10 +393,10 @@ CREATE TABLE public.video (
 );
 
 
-ALTER TABLE public.video OWNER TO lnxherptaqgxqb;
+ALTER TABLE public.video OWNER TO sylgyfpwxylttl;
 
 --
--- Data for Name: berita; Type: TABLE DATA; Schema: public; Owner: lnxherptaqgxqb
+-- Data for Name: berita; Type: TABLE DATA; Schema: public; Owner: sylgyfpwxylttl
 --
 
 INSERT INTO public.berita VALUES (7, 4, 5, '', 'pengajar-praktisi-dosen', 'Pengajar Praktisi & Dosen', '<p>Para pengajar adalah praktisi dan dosen yang berpengalaman di bidangnya. Mereka rata-rata telah berpengalaman di bidangnya mulai dari 2-10 tahun.</p>
@@ -535,7 +535,7 @@ INSERT INTO public.berita VALUES (15, 4, 5, '', 'gratis-konsultasi', 'Gratis Kon
 
 
 --
--- Data for Name: download; Type: TABLE DATA; Schema: public; Owner: lnxherptaqgxqb
+-- Data for Name: download; Type: TABLE DATA; Schema: public; Owner: sylgyfpwxylttl
 --
 
 INSERT INTO public.download VALUES (2, 1, 4, 'Panduan Untuk Admin Engineering Utama', 'Download', '<p>Panduan Untuk Admin Engineering</p>', 'banner-top-asli-1591956558.pdf', 'https://javawebmedia.com', 2, '2020-06-12 12:21:41');
@@ -543,7 +543,7 @@ INSERT INTO public.download VALUES (3, 1, 4, 'Buku Panduan PT SBI (ADMIN ENGINEE
 
 
 --
--- Data for Name: galeri; Type: TABLE DATA; Schema: public; Owner: lnxherptaqgxqb
+-- Data for Name: galeri; Type: TABLE DATA; Schema: public; Owner: sylgyfpwxylttl
 --
 
 INSERT INTO public.galeri VALUES (9, 4, 4, 'Java Web Media <span>Kursus</span>', 'Homepage', '<p>Pusat Kursus Programming, Desain dan Statistik dengan format Kelas dan Private</p>', 'produk-javawebmedia-01-1592630207.jpg', 'https://javawebmedia.com', '', 'Publish', 0, 'Ya', '2020-06-20 07:16:48');
@@ -551,14 +551,14 @@ INSERT INTO public.galeri VALUES (11, 4, 4, 'Selamat Datang di Educamedia', 'Hom
 
 
 --
--- Data for Name: gambar_produk; Type: TABLE DATA; Schema: public; Owner: lnxherptaqgxqb
+-- Data for Name: gambar_produk; Type: TABLE DATA; Schema: public; Owner: sylgyfpwxylttl
 --
 
 INSERT INTO public.gambar_produk VALUES (2, 0, 1, '', 'NITRICO_Distributor_Ad_01_b2.jpg', '', 0, '2020-05-30 01:45:38');
 
 
 --
--- Data for Name: kategori; Type: TABLE DATA; Schema: public; Owner: lnxherptaqgxqb
+-- Data for Name: kategori; Type: TABLE DATA; Schema: public; Owner: sylgyfpwxylttl
 --
 
 INSERT INTO public.kategori VALUES (4, 1, 'penelitian-internal', 'Penelitian Internal', 4, 0, '2020-06-11 00:08:23');
@@ -567,7 +567,7 @@ INSERT INTO public.kategori VALUES (6, 0, 'penelitian-internasional', 'Penelitia
 
 
 --
--- Data for Name: kategori_download; Type: TABLE DATA; Schema: public; Owner: lnxherptaqgxqb
+-- Data for Name: kategori_download; Type: TABLE DATA; Schema: public; Owner: sylgyfpwxylttl
 --
 
 INSERT INTO public.kategori_download VALUES (1, 'product-pricelist', 'Product Pricelist', 1);
@@ -575,7 +575,7 @@ INSERT INTO public.kategori_download VALUES (2, 'informasi-nitrico', 'Informasi 
 
 
 --
--- Data for Name: kategori_galeri; Type: TABLE DATA; Schema: public; Owner: lnxherptaqgxqb
+-- Data for Name: kategori_galeri; Type: TABLE DATA; Schema: public; Owner: sylgyfpwxylttl
 --
 
 INSERT INTO public.kategori_galeri VALUES (4, 'kegiatan', 'Kegiatan', 2);
@@ -583,7 +583,7 @@ INSERT INTO public.kategori_galeri VALUES (6, 'kegiatan-kampus', 'Kegiatan Kampu
 
 
 --
--- Data for Name: kategori_produk; Type: TABLE DATA; Schema: public; Owner: lnxherptaqgxqb
+-- Data for Name: kategori_produk; Type: TABLE DATA; Schema: public; Owner: sylgyfpwxylttl
 --
 
 INSERT INTO public.kategori_produk VALUES (1, 'Kursus Programming', 'kursus-programming', 1, '<p>Kursus Programming</p>', 'produk-javawebmedia-02-1592630261.jpg', '2020-06-20 07:17:41');
@@ -592,7 +592,7 @@ INSERT INTO public.kategori_produk VALUES (4, 'Kursus Statistik dan Manajemen Da
 
 
 --
--- Data for Name: konfigurasi; Type: TABLE DATA; Schema: public; Owner: lnxherptaqgxqb
+-- Data for Name: konfigurasi; Type: TABLE DATA; Schema: public; Owner: sylgyfpwxylttl
 --
 
 INSERT INTO public.konfigurasi VALUES (1, 'Jual Karpet & Strategi Pemasaran', 'Jual Karpet & Strategi Pemasaran', 'Jual Karpet & Strategi Pemasaran', 'Jual Karpet & Strategi Pemasaran', '<p>Educamedia berdiri pada tanggal 26 April 2010, berawal dari garasi rumah ukuran 3x4 meter. Educamedia awalnya hanya bergerak di bidang pembuatan dan pengembangan website serta agensi desain grafis. Awal tahun 2011, perusahaan ini kemudian mulai bergerak di bidang pengembangan sumber daya manusia, khususnya di bidang keahlian computer&nbsp;<em>Graphic Design</em>,&nbsp;<em>Web Design</em>&nbsp;dan&nbsp;<em>Web Development.</em></p>
@@ -699,7 +699,7 @@ Jl. Margonda Raya - Kota Depok', 85715100485, '+6281210697841', 81210697841, 'lo
 
 
 --
--- Data for Name: pemesanan; Type: TABLE DATA; Schema: public; Owner: lnxherptaqgxqb
+-- Data for Name: pemesanan; Type: TABLE DATA; Schema: public; Owner: sylgyfpwxylttl
 --
 
 INSERT INTO public.pemesanan VALUES (1, 4, 2, '0', 'JWM202006100001', 'kMpUQADBlGkeTQhR7439a6zsqX6dWmzK', '2020-06-10', 1, 'Dikirim', 'Andoyo', 85715100485, 'javawebmedia@gmail.com', 'adadada', 1, 12000, 12000, '0', '0', '2020-06-10 07:57:46', '', '', '', '0', '', '', '', '', '2020-06-10 07:57:46', '2020-06-12 15:53:42');
@@ -711,7 +711,7 @@ INSERT INTO public.pemesanan VALUES (6, 0, 5, '', 'JWM202006180006', 'MxnOVRcARI
 
 
 --
--- Data for Name: produk; Type: TABLE DATA; Schema: public; Owner: lnxherptaqgxqb
+-- Data for Name: produk; Type: TABLE DATA; Schema: public; Owner: sylgyfpwxylttl
 --
 
 INSERT INTO public.produk VALUES (1, 4, '', 1, 'kursus-php-laravel', 'NIT203', 'Kursus PHP Laravel', 'Publish', 'Pcs', '1', 'Kursus PHP Laravel', '<h2>Deskripsi ringkas</h2>
@@ -801,7 +801,7 @@ INSERT INTO public.produk VALUES (5, 4, '', 1, 'advanced-web-programming', 'ADVA
 
 <li>Membangun web service (API)</li>
 
-<li>Membangun aplikasi web dengan berbagai database (MySQL, Oracle, SQL Server, lnxherptaqgxqbQL dll)</li>
+<li>Membangun aplikasi web dengan berbagai database (MySQL, Oracle, SQL Server, sylgyfpwxylttlQL dll)</li>
 
 <li><strong><em>Data visualization</em></strong>&nbsp;(format grafik dan peta digital)</li>
 
@@ -888,7 +888,7 @@ INSERT INTO public.produk VALUES (6, 4, '', 4, 'kursus-statistik-dan-olah-data-s
 
 
 --
--- Data for Name: rekening; Type: TABLE DATA; Schema: public; Owner: lnxherptaqgxqb
+-- Data for Name: rekening; Type: TABLE DATA; Schema: public; Owner: sylgyfpwxylttl
 --
 
 INSERT INTO public.rekening VALUES (1, 'BCA KCP DEPOK', '4212-5482-04', 'ANDOYO', 'bca.jpg', 1, '2020-06-11 23:36:46');
@@ -898,7 +898,7 @@ INSERT INTO public.rekening VALUES (5, 'BANK BNI KCU DEPOK', '0105-3010-01', 'EF
 
 
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: lnxherptaqgxqb
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: sylgyfpwxylttl
 --
 
 INSERT INTO public.users VALUES (4, 'Andoyo Cakep', 'javawebmedia@gmail.com', 'javawebmedia', 'dc28d4424ece38803650f440d7eb1cb2b3fb6651', 'Admin', '', 'testimonials-1.jpg', '2020-06-20 08:51:42');
@@ -906,7 +906,7 @@ INSERT INTO public.users VALUES (14, 'Eflita Meiyetriani', 'eflita@gmail.com', '
 
 
 --
--- Data for Name: video; Type: TABLE DATA; Schema: public; Owner: lnxherptaqgxqb
+-- Data for Name: video; Type: TABLE DATA; Schema: public; Owner: sylgyfpwxylttl
 --
 
 INSERT INTO public.video VALUES (1, 'BAGIAN 1 DASAR-DASAR CSS KURSUS JAVA WEB MEDIA ', 'Homepage', 'BAGIAN 1 DASAR-DASAR CSS KURSUS JAVA WEB MEDIA ', 'kOEbjxl42hQ', 1, 'Indonesia', 4, '2020-01-22 00:47:59');
@@ -980,7 +980,7 @@ INSERT INTO public.video VALUES (64, 'SESI 18 CRUD LINK DAN MENAMPILKAN DI HOMEP
 
 
 --
--- Name: kategori kategori_pkey; Type: CONSTRAINT; Schema: public; Owner: lnxherptaqgxqb
+-- Name: kategori kategori_pkey; Type: CONSTRAINT; Schema: public; Owner: sylgyfpwxylttl
 --
 
 ALTER TABLE ONLY public.kategori
@@ -988,6 +988,6 @@ ALTER TABLE ONLY public.kategori
 
 
 --
--- lnxherptaqgxqbQL database dump complete
+-- sylgyfpwxylttlQL database dump complete
 --
 
