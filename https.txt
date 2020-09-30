@@ -1,0 +1,5 @@
+An other option that worked for me, in AppServiceProvider place this code in the boot method:
+
+\URL::forceScheme('https');
+
+The function written before forceSchema('https') was wrong, its forceScheme

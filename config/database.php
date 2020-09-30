@@ -1,9 +1,5 @@
 <?php
 
-$DATABASE_URL = parse_url(getenv("
-postgres://lnxherptaqgxqb:f29eccc8eed5e75d4a25c9f663f8af95f1df8ce356910ece85ace16337f02de4@ec2-52-72-34-184.compute-1.amazonaws.com:5432/d22o5e5mdslcs0
-"));
-
 return [
 
     /*
@@ -17,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'pgsql'),
+    'default' => env('DB_CONNECTION', 'mysql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -58,19 +54,23 @@ return [
             'prefix_indexes' => true,
             'strict' => true,
             'engine' => null,
+            'options' => array_filter([
+                PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+            ]),
         ],
 
         'pgsql' => [
             'driver' => 'pgsql',
-			'host' => parse_url(env('DATABASE_URL'), PHP_URL_HOST),
-			'port' => parse_url(env('DATABASE_URL'), PHP_URL_PORT),
-			'database' => ltrim(parse_url(env('DATABASE_URL'), PHP_URL_PATH), '/'),
-			'username' => parse_url(env('DATABASE_URL'), PHP_URL_USER),
-			'password' => parse_url(env('DATABASE_URL'), PHP_URL_PASS),
-			'charset' => 'utf8',
-			'prefix' => '',
-			'schema' => 'public',
-			'sslmode' => 'prefer',
+            'host' => env('DB_HOST', '127.0.0.1'),
+            'port' => env('DB_PORT', '5432'),
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),
+            'charset' => 'utf8',
+            'prefix' => '',
+            'prefix_indexes' => true,
+            'schema' => 'public',
+            'sslmode' => 'prefer',
         ],
 
         'sqlsrv' => [
@@ -113,7 +113,11 @@ return [
 
     'redis' => [
 
-        'client' => 'predis',
+        'client' => env('REDIS_CLIENT', 'predis'),
+
+        'options' => [
+            'cluster' => env('REDIS_CLUSTER', 'predis'),
+        ],
 
         'default' => [
             'host' => env('REDIS_HOST', '127.0.0.1'),
