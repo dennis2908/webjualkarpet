@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'pgsql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,21 +56,18 @@ return [
             'engine' => null,
             'options' => array_filter([
          //       PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
-            ]),
-        ],
-
+            ])
         'pgsql' => [
             'driver' => 'pgsql',
-            'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
-            'charset' => 'utf8',
-            'prefix' => '',
-            'prefix_indexes' => true,
-            'schema' => 'public',
-            'sslmode' => 'prefer',
+			'host' => parse_url(env('DATABASE_URL'), PHP_URL_HOST),
+			'port' => parse_url(env('DATABASE_URL'), PHP_URL_PORT),
+			'database' => ltrim(parse_url(env('DATABASE_URL'), PHP_URL_PATH), '/'),
+			'username' => parse_url(env('DATABASE_URL'), PHP_URL_USER),
+			'password' => parse_url(env('DATABASE_URL'), PHP_URL_PASS),
+			'charset' => 'utf8',
+			'prefix' => '',
+			'schema' => 'public',
+			'sslmode' => 'prefer',
         ],
 
         'sqlsrv' => [
@@ -113,11 +110,7 @@ return [
 
     'redis' => [
 
-        'client' => env('REDIS_CLIENT', 'predis'),
-
-        'options' => [
-            'cluster' => env('REDIS_CLUSTER', 'predis'),
-        ],
+        'client' => 'predis',
 
         'default' => [
             'host' => env('REDIS_HOST', '127.0.0.1'),
@@ -132,6 +125,7 @@ return [
             'port' => env('REDIS_PORT', 6379),
             'database' => env('REDIS_CACHE_DB', 1),
         ],
+		
 
     ],
 
